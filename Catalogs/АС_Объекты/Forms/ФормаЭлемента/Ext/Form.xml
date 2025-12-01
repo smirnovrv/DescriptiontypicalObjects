@@ -80,6 +80,13 @@
 					<ContextMenu name="АС_РеквизитыНомерСтрокиКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="АС_РеквизитыНомерСтрокиРасширеннаяПодсказка" id="25"/>
 				</LabelField>
+				<InputField name="АС_РеквизитыАС_Подсистема" id="40">
+					<DataPath>Объект.АС_Реквизиты.АС_Подсистема</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АС_РеквизитыАС_ПодсистемаКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="АС_РеквизитыАС_ПодсистемаРасширеннаяПодсказка" id="42"/>
+				</InputField>
 				<InputField name="АС_РеквизитыРеквизитИмя" id="26">
 					<DataPath>Объект.АС_Реквизиты.РеквизитИмя</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -106,6 +113,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="АС_РеквизитыТипКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="АС_РеквизитыТипРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="АС_РеквизитыОписание" id="43">
+					<DataPath>Объект.АС_Реквизиты.Описание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АС_РеквизитыОписаниеКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="АС_РеквизитыОписаниеРасширеннаяПодсказка" id="45"/>
 				</InputField>
 			</ChildItems>
 		</Table>

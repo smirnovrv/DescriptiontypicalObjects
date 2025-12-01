@@ -57,6 +57,11 @@
 						<CommandName>Form.Command.КомандаЗаполнить</CommandName>
 						<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
 					</Button>
+					<Button name="АС_ОбъектыКомандаСоздатьОбъект" id="50">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаСоздатьОбъект</CommandName>
+						<ExtendedTooltip name="АС_ОбъектыКомандаСоздатьОбъектРасширеннаяПодсказка" id="51"/>
+					</Button>
 				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="АС_ОбъектыРасширеннаяПодсказка" id="13"/>
@@ -91,6 +96,13 @@
 					<ContextMenu name="АС_ОбъектыНомерСтрокиКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="АС_ОбъектыНомерСтрокиРасширеннаяПодсказка" id="25"/>
 				</LabelField>
+				<InputField name="АС_ОбъектыАС_Подсистема" id="44">
+					<DataPath>Объект.АС_Объекты.АС_Подсистема</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АС_ОбъектыАС_ПодсистемаКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="АС_ОбъектыАС_ПодсистемаРасширеннаяПодсказка" id="46"/>
+				</InputField>
 				<InputField name="АС_ОбъектыАС_Имя" id="26">
 					<DataPath>Объект.АС_Объекты.АС_Имя</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -111,6 +123,13 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="АС_ОбъектыАС_ОбъектКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="АС_ОбъектыАС_ОбъектРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="АС_ОбъектыАС_Описание" id="47">
+					<DataPath>Объект.АС_Объекты.АС_Описание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="АС_ОбъектыАС_ОписаниеКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="АС_ОбъектыАС_ОписаниеРасширеннаяПодсказка" id="49"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -159,6 +178,21 @@
 			</Picture>
 			<Action>ОбновитьВерсиюКонфигурации</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="КомандаСоздатьОбъект" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать АС Объект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда создать объект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаСоздатьОбъект</Action>
 		</Command>
 	</Commands>
 </Form>

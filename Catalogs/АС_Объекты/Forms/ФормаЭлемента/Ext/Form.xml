@@ -81,7 +81,7 @@
 					<ExtendedTooltip name="АС_РеквизитыНомерСтрокиРасширеннаяПодсказка" id="25"/>
 				</LabelField>
 				<InputField name="АС_РеквизитыАС_Подсистема" id="40">
-					<DataPath>Объект.АС_Реквизиты.АС_Подсистема</DataPath>
+					<DataPath>1/0:a5ef134a-aece-4e1a-9686-d83c40c33ada/0:02bd50ba-9556-4b08-b280-cebec14acbfc</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="АС_РеквизитыАС_ПодсистемаКонтекстноеМеню" id="41"/>
@@ -115,7 +115,7 @@
 					<ExtendedTooltip name="АС_РеквизитыТипРасширеннаяПодсказка" id="34"/>
 				</InputField>
 				<InputField name="АС_РеквизитыОписание" id="43">
-					<DataPath>Объект.АС_Реквизиты.Описание</DataPath>
+					<DataPath>Объект.АС_Реквизиты.АлгоритмЗаполнение</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="АС_РеквизитыОписаниеКонтекстноеМеню" id="44"/>

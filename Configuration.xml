@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов 661300789600</Vendor>
-			<Version>05</Version>
+			<Version>06.01</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -66,8 +66,9 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Role>АС_ОсновнаяРоль</Role>
-			<Catalog>АС_Объекты</Catalog>
 			<Catalog>АС_Метаданные</Catalog>
+			<Catalog>АС_Объекты</Catalog>
+			<Catalog>АС_Подсистемы</Catalog>
 			<Enum>АС_ВидОбъектов</Enum>
 		</ChildObjects>
 	</Configuration>

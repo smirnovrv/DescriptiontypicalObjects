@@ -42,97 +42,171 @@
 			<ContextMenu name="ВидОбъектаКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ВидОбъектаРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<Table name="АС_Объекты" id="10">
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.АС_Объекты</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="АС_ОбъектыКонтекстноеМеню" id="11"/>
-			<AutoCommandBar name="АС_ОбъектыКоманднаяПанель" id="12">
-				<Autofill>false</Autofill>
-				<ChildItems>
-					<Button name="КомандаЗаполнить" id="35">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.КомандаЗаполнить</CommandName>
-						<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
-					</Button>
-					<Button name="АС_ОбъектыКомандаСоздатьОбъект" id="50">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.КомандаСоздатьОбъект</CommandName>
-						<ExtendedTooltip name="АС_ОбъектыКомандаСоздатьОбъектРасширеннаяПодсказка" id="51"/>
-					</Button>
-				</ChildItems>
-			</AutoCommandBar>
-			<ExtendedTooltip name="АС_ОбъектыРасширеннаяПодсказка" id="13"/>
-			<SearchStringAddition name="АС_ОбъектыСтрокаПоиска" id="14">
-				<AdditionSource>
-					<Item>АС_Объекты</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="АС_ОбъектыСтрокаПоискаКонтекстноеМеню" id="15"/>
-				<ExtendedTooltip name="АС_ОбъектыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="АС_ОбъектыСостояниеПросмотра" id="17">
-				<AdditionSource>
-					<Item>АС_Объекты</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="АС_ОбъектыСостояниеПросмотраКонтекстноеМеню" id="18"/>
-				<ExtendedTooltip name="АС_ОбъектыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="АС_ОбъектыУправлениеПоиском" id="20">
-				<AdditionSource>
-					<Item>АС_Объекты</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="АС_ОбъектыУправлениеПоискомКонтекстноеМеню" id="21"/>
-				<ExtendedTooltip name="АС_ОбъектыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
-			</SearchControlAddition>
+		<UsualGroup name="Группа2" id="52">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="53"/>
 			<ChildItems>
-				<LabelField name="АС_ОбъектыНомерСтроки" id="23">
-					<DataPath>Объект.АС_Объекты.LineNumber</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="АС_ОбъектыНомерСтрокиКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="АС_ОбъектыНомерСтрокиРасширеннаяПодсказка" id="25"/>
-				</LabelField>
-				<InputField name="АС_ОбъектыАС_Подсистема" id="44">
-					<DataPath>Объект.АС_Объекты.АС_Подсистема</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="АС_ОбъектыАС_ПодсистемаКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="АС_ОбъектыАС_ПодсистемаРасширеннаяПодсказка" id="46"/>
-				</InputField>
-				<InputField name="АС_ОбъектыАС_Имя" id="26">
-					<DataPath>Объект.АС_Объекты.АС_Имя</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="АС_ОбъектыАС_ИмяКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="АС_ОбъектыАС_ИмяРасширеннаяПодсказка" id="28"/>
-				</InputField>
-				<InputField name="АС_ОбъектыАС_Синоним" id="29">
-					<DataPath>Объект.АС_Объекты.АС_Синоним</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="АС_ОбъектыАС_СинонимКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="АС_ОбъектыАС_СинонимРасширеннаяПодсказка" id="31"/>
-				</InputField>
-				<InputField name="АС_ОбъектыАС_Объект" id="32">
-					<DataPath>Объект.АС_Объекты.АС_Объект</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="АС_ОбъектыАС_ОбъектКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="АС_ОбъектыАС_ОбъектРасширеннаяПодсказка" id="34"/>
-				</InputField>
-				<InputField name="АС_ОбъектыАС_Описание" id="47">
-					<DataPath>Объект.АС_Объекты.АС_Описание</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="АС_ОбъектыАС_ОписаниеКонтекстноеМеню" id="48"/>
-					<ExtendedTooltip name="АС_ОбъектыАС_ОписаниеРасширеннаяПодсказка" id="49"/>
-				</InputField>
+				<Table name="АС_Объекты" id="10">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.АС_Объекты</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="АС_ОбъектыКонтекстноеМеню" id="11"/>
+					<AutoCommandBar name="АС_ОбъектыКоманднаяПанель" id="12">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="КомандаЗаполнить" id="35">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+								<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
+							</Button>
+							<Button name="АС_ОбъектыКомандаСоздатьОбъект" id="50">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаСоздатьОбъект</CommandName>
+								<ExtendedTooltip name="АС_ОбъектыКомандаСоздатьОбъектРасширеннаяПодсказка" id="51"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="АС_ОбъектыРасширеннаяПодсказка" id="13"/>
+					<SearchStringAddition name="АС_ОбъектыСтрокаПоиска" id="14">
+						<AdditionSource>
+							<Item>АС_Объекты</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_ОбъектыСтрокаПоискаКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="АС_ОбъектыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="АС_ОбъектыСостояниеПросмотра" id="17">
+						<AdditionSource>
+							<Item>АС_Объекты</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_ОбъектыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="АС_ОбъектыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="АС_ОбъектыУправлениеПоиском" id="20">
+						<AdditionSource>
+							<Item>АС_Объекты</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_ОбъектыУправлениеПоискомКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="АС_ОбъектыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="АС_ОбъектыНомерСтроки" id="23">
+							<DataPath>Объект.АС_Объекты.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="АС_ОбъектыНомерСтрокиКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="АС_ОбъектыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+						</LabelField>
+						<InputField name="АС_ОбъектыАС_Подсистема" id="44">
+							<DataPath>Объект.АС_Объекты.АС_Подсистема</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_ОбъектыАС_ПодсистемаКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="АС_ОбъектыАС_ПодсистемаРасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<InputField name="АС_ОбъектыАС_Имя" id="26">
+							<DataPath>Объект.АС_Объекты.АС_Имя</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_ОбъектыАС_ИмяКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="АС_ОбъектыАС_ИмяРасширеннаяПодсказка" id="28"/>
+						</InputField>
+						<InputField name="АС_ОбъектыАС_Синоним" id="29">
+							<DataPath>Объект.АС_Объекты.АС_Синоним</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_ОбъектыАС_СинонимКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="АС_ОбъектыАС_СинонимРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="АС_ОбъектыАС_Объект" id="32">
+							<DataPath>Объект.АС_Объекты.АС_Объект</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_ОбъектыАС_ОбъектКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="АС_ОбъектыАС_ОбъектРасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<InputField name="АС_ОбъектыАС_Описание" id="47">
+							<DataPath>Объект.АС_Объекты.АС_Описание</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_ОбъектыАС_ОписаниеКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="АС_ОбъектыАС_ОписаниеРасширеннаяПодсказка" id="49"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Table name="АС_Связи" id="54">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.АС_Связи</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="АС_СвязиКонтекстноеМеню" id="55"/>
+					<AutoCommandBar name="АС_СвязиКоманднаяПанель" id="56"/>
+					<ExtendedTooltip name="АС_СвязиРасширеннаяПодсказка" id="57"/>
+					<SearchStringAddition name="АС_СвязиСтрокаПоиска" id="58">
+						<AdditionSource>
+							<Item>АС_Связи</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_СвязиСтрокаПоискаКонтекстноеМеню" id="59"/>
+						<ExtendedTooltip name="АС_СвязиСтрокаПоискаРасширеннаяПодсказка" id="60"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="АС_СвязиСостояниеПросмотра" id="61">
+						<AdditionSource>
+							<Item>АС_Связи</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_СвязиСостояниеПросмотраКонтекстноеМеню" id="62"/>
+						<ExtendedTooltip name="АС_СвязиСостояниеПросмотраРасширеннаяПодсказка" id="63"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="АС_СвязиУправлениеПоиском" id="64">
+						<AdditionSource>
+							<Item>АС_Связи</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="АС_СвязиУправлениеПоискомКонтекстноеМеню" id="65"/>
+						<ExtendedTooltip name="АС_СвязиУправлениеПоискомРасширеннаяПодсказка" id="66"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnEditEnd">АС_СвязиПриОкончанииРедактирования</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="АС_СвязиНомерСтроки" id="67">
+							<DataPath>Объект.АС_Связи.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="АС_СвязиНомерСтрокиКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="АС_СвязиНомерСтрокиРасширеннаяПодсказка" id="69"/>
+						</LabelField>
+						<InputField name="АС_СвязиАС_Объект" id="70">
+							<DataPath>Объект.АС_Связи.АС_Объект</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_СвязиАС_ОбъектКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="АС_СвязиАС_ОбъектРасширеннаяПодсказка" id="72"/>
+						</InputField>
+						<InputField name="АС_СвязиАС_Реквизит" id="73">
+							<DataPath>Объект.АС_Связи.АС_Реквизит</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_СвязиАС_РеквизитКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="АС_СвязиАС_РеквизитРасширеннаяПодсказка" id="75"/>
+						</InputField>
+						<InputField name="АС_СвязиАС_ОбъектСвязь" id="76">
+							<DataPath>Объект.АС_Связи.АС_ОбъектСвязь</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_СвязиАС_ОбъектСвязьКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="АС_СвязиАС_ОбъектСвязьРасширеннаяПодсказка" id="78"/>
+						</InputField>
+					</ChildItems>
+				</Table>
 			</ChildItems>
-		</Table>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -193,6 +267,26 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаСоздатьОбъект</Action>
+		</Command>
+		<Command name="КомандаПеренести" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда перенести</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveRight</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаПеренести</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 </Form>

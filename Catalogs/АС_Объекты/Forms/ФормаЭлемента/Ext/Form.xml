@@ -24,6 +24,12 @@
 			<ContextMenu name="ИндентификаторКонтекстноеМеню" id="38"/>
 			<ExtendedTooltip name="ИндентификаторРасширеннаяПодсказка" id="39"/>
 		</InputField>
+		<InputField name="Подсистема" id="46">
+			<DataPath>Объект.Подсистема</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПодсистемаКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ПодсистемаРасширеннаяПодсказка" id="48"/>
+		</InputField>
 		<InputField name="Вид" id="7">
 			<DataPath>Объект.Вид</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -123,6 +129,15 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<InputField name="Описание" id="49">
+			<DataPath>Объект.Описание</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<MultiLine>true</MultiLine>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="51"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

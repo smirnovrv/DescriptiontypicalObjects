@@ -2,7 +2,15 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="КомандаЗаполнить" id="35">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+				<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="40">
 			<Representation>None</Representation>
@@ -58,11 +66,6 @@
 					<AutoCommandBar name="АС_ОбъектыКоманднаяПанель" id="12">
 						<Autofill>false</Autofill>
 						<ChildItems>
-							<Button name="КомандаЗаполнить" id="35">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.КомандаЗаполнить</CommandName>
-								<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
-							</Button>
 							<Button name="АС_ОбъектыКомандаСоздатьОбъект" id="50">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаСоздатьОбъект</CommandName>
@@ -108,6 +111,9 @@
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="АС_ОбъектыАС_ПодсистемаКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="АС_ОбъектыАС_ПодсистемаРасширеннаяПодсказка" id="46"/>
+							<Events>
+								<Event name="OnChange">АС_ОбъектыАС_ПодсистемаПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="АС_ОбъектыАС_Имя" id="26">
 							<DataPath>Объект.АС_Объекты.АС_Имя</DataPath>
@@ -287,6 +293,21 @@
 			</Picture>
 			<Action>КомандаПеренести</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ЗаполнитьРеквизитами" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизитами</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизитами</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьРеквизитами</Action>
 		</Command>
 	</Commands>
 </Form>

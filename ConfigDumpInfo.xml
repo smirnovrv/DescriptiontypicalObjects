@@ -16,7 +16,7 @@
 			<Metadata name="Catalog.АС_Метаданные.TabularSection.АС_Объекты.Attribute.АС_Имя" id="e013c8a0-59d2-407f-ad10-0bdb0cd0978f"/>
 		</Metadata>
 		<Metadata name="Catalog.АС_Метаданные.Form.ФормаЭлемента" id="b167050b-1c37-4492-a2fc-4e294a5e4306" configVersion="5c74f351a2e7a302120abb73dde8485df340b65e"/>
-		<Metadata name="Catalog.АС_Метаданные.Form.ФормаЭлемента.Form" id="b167050b-1c37-4492-a2fc-4e294a5e4306.0" configVersion="7a7796d5e7e1b1a0d46a98a49d270cb16dcc11b0"/>
+		<Metadata name="Catalog.АС_Метаданные.Form.ФормаЭлемента.Form" id="b167050b-1c37-4492-a2fc-4e294a5e4306.0" configVersion="5413ebc0bfa3c8f6ae1f581ad8e7bee075030ae1"/>
 		<Metadata name="Catalog.АС_Метаданные.Help" id="292cb4d7-a802-4723-a017-1f4686baaff0.1" configVersion="40b9e4f23dd5b722637239b421886f1803fcae0c"/>
 		<Metadata name="Catalog.АС_Метаданные.ObjectModule" id="292cb4d7-a802-4723-a017-1f4686baaff0.0" configVersion="60b1049186a001818fe4391e5047095bb106a3bc"/>
 		<Metadata name="Catalog.АС_Объекты" id="d617d163-3ef4-4c4b-8ad4-2cd024b70957" configVersion="994dd81b7059defb7399c18ec46fd332094931d5">
@@ -36,7 +36,7 @@
 		<Metadata name="Catalog.АС_Подсистемы" id="c928f9dd-cda5-452c-bb2f-94259195642b" configVersion="b4aa9b98087c476ff76f1e2d17d9ecbf74951a00"/>
 		<Metadata name="CommonModule.АС_ОбщийМодульСервер" id="c60ee314-347d-4893-a9be-ad1bc4e9cc96" configVersion="16668aae913a573225c801ee2e8659dddff850b3"/>
 		<Metadata name="CommonModule.АС_ОбщийМодульСервер.Module" id="c60ee314-347d-4893-a9be-ad1bc4e9cc96.0" configVersion="b4afe3043bd14b6cb7c8e49e8cc898dace3febe4"/>
-		<Metadata name="Configuration.ОписаниеТиповойКонфигурации" id="0fba4e31-03bb-4822-abc4-e70e2c7c6645" configVersion="3ce9fff88b48fe0465f642599cc8b2d37d028066"/>
+		<Metadata name="Configuration.ОписаниеТиповойКонфигурации" id="0fba4e31-03bb-4822-abc4-e70e2c7c6645" configVersion="0ba1f34f9f94f9f8082fc3476b8622f730d5911f"/>
 		<Metadata name="Enum.АС_ВидОбъектов" id="1e1e527f-4d23-4684-96fa-3edfb063d2b9" configVersion="05967df37185c2c69ded31456315eb3a5311555e">
 			<Metadata name="Enum.АС_ВидОбъектов.EnumValue.РегистрРасчетов" id="42239d88-8e84-4c7f-8f93-49e3c74663f7"/>
 			<Metadata name="Enum.АС_ВидОбъектов.EnumValue.Справочники" id="42b10405-1b62-489a-b23b-882df29aa20b"/>

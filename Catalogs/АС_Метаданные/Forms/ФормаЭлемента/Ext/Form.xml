@@ -2,15 +2,7 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<ChildItems>
-			<Button name="КомандаЗаполнить" id="35">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.КомандаЗаполнить</CommandName>
-				<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
-			</Button>
-		</ChildItems>
-	</AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="40">
 			<Representation>None</Representation>
@@ -27,6 +19,11 @@
 					<Type>UsualButton</Type>
 					<CommandName>Form.Command.ОбновитьВерсиюКонфигурации</CommandName>
 					<ExtendedTooltip name="ОбновитьВерсиюКонфигурацииРасширеннаяПодсказка" id="43"/>
+				</Button>
+				<Button name="КомандаЗаполнить" id="35">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+					<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
 				</Button>
 			</ChildItems>
 		</UsualGroup>
@@ -70,6 +67,11 @@
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.КомандаСоздатьОбъект</CommandName>
 								<ExtendedTooltip name="АС_ОбъектыКомандаСоздатьОбъектРасширеннаяПодсказка" id="51"/>
+							</Button>
+							<Button name="АС_ОбъектыКомандаПеренести" id="79">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаПеренести</CommandName>
+								<ExtendedTooltip name="АС_ОбъектыКомандаПеренестиРасширеннаяПодсказка" id="80"/>
 							</Button>
 						</ChildItems>
 					</AutoCommandBar>

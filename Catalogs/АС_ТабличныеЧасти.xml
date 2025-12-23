@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="c928f9dd-cda5-452c-bb2f-94259195642b">
+	<Catalog uuid="bc642119-ee97-4cba-95e6-bac913f9cbea">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.АС_Подсистемы" category="Object">
-				<xr:TypeId>d5e9b8a3-d7c1-49dd-a7da-a2b1c0509383</xr:TypeId>
-				<xr:ValueId>7dfbf307-8461-4527-a51f-0583882adf54</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.АС_ТабличныеЧасти" category="Object">
+				<xr:TypeId>8acf46b1-befc-4b7a-898d-8aab9ba8f642</xr:TypeId>
+				<xr:ValueId>96138a0c-059b-4eed-8f99-07b12ab35932</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.АС_Подсистемы" category="Ref">
-				<xr:TypeId>0185fa45-17ea-4418-bbe3-0b7b55f48861</xr:TypeId>
-				<xr:ValueId>5b967495-9479-43c6-8c2b-60d353df2241</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.АС_ТабличныеЧасти" category="Ref">
+				<xr:TypeId>48fa97ed-e123-437a-bdc9-f7d67392eb9f</xr:TypeId>
+				<xr:ValueId>2bb4d642-ebc8-4605-aaef-57f1f7ad8724</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.АС_Подсистемы" category="Selection">
-				<xr:TypeId>39e5594d-8c51-4a41-b53e-ccefbcefc9b6</xr:TypeId>
-				<xr:ValueId>b0d91c9d-4ab6-4e6d-988c-8460cd7f829d</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.АС_ТабличныеЧасти" category="Selection">
+				<xr:TypeId>f2acad82-78c0-4afd-92b7-e5111e7ed788</xr:TypeId>
+				<xr:ValueId>c3cea3f8-0e5c-4fe3-bf75-40384b08d9d3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.АС_Подсистемы" category="List">
-				<xr:TypeId>f6e5fab7-4e79-4b5a-aab3-7c8ec746fd02</xr:TypeId>
-				<xr:ValueId>1c8d64fd-f7d3-4a3c-9b4e-9bab283e97c7</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.АС_ТабличныеЧасти" category="List">
+				<xr:TypeId>f98e5615-c8d3-4736-8474-6c4d4912a072</xr:TypeId>
+				<xr:ValueId>24001ba8-f0b8-4e13-bad5-78c0d4fd86c0</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.АС_Подсистемы" category="Manager">
-				<xr:TypeId>f254cf0e-13b7-43e4-884b-dc6ff3c2588f</xr:TypeId>
-				<xr:ValueId>70f0c7c2-7005-4ec6-bd93-9fbebeec5e1d</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.АС_ТабличныеЧасти" category="Manager">
+				<xr:TypeId>164eb8b0-b517-43ed-a9ce-8b1fe45ce61b</xr:TypeId>
+				<xr:ValueId>ffc2c7f6-ed62-4113-8152-66066f0a6ff7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>АС_Подсистемы</Name>
+			<Name>АС_ТабличныеЧасти</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистемы</v8:content>
+					<v8:content>Табличные части</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.АС_Подсистемы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.АС_Подсистемы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.АС_ТабличныеЧасти.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.АС_ТабличныеЧасти.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

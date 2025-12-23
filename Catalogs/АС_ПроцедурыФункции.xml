@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="c928f9dd-cda5-452c-bb2f-94259195642b">
+	<Catalog uuid="fa2ff78c-cbf7-4323-9fed-5aceb1f762f1">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.АС_Подсистемы" category="Object">
-				<xr:TypeId>d5e9b8a3-d7c1-49dd-a7da-a2b1c0509383</xr:TypeId>
-				<xr:ValueId>7dfbf307-8461-4527-a51f-0583882adf54</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.АС_ПроцедурыФункции" category="Object">
+				<xr:TypeId>6f76a6ea-5c80-427c-ac43-c515adf96999</xr:TypeId>
+				<xr:ValueId>57f88c2f-af2f-4d36-bcc8-f974508613b1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.АС_Подсистемы" category="Ref">
-				<xr:TypeId>0185fa45-17ea-4418-bbe3-0b7b55f48861</xr:TypeId>
-				<xr:ValueId>5b967495-9479-43c6-8c2b-60d353df2241</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.АС_ПроцедурыФункции" category="Ref">
+				<xr:TypeId>62508b39-852e-4bfc-bcd5-82b94c13fbff</xr:TypeId>
+				<xr:ValueId>9cbebf4d-2db3-4c3d-a36e-6d6a08b19d78</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.АС_Подсистемы" category="Selection">
-				<xr:TypeId>39e5594d-8c51-4a41-b53e-ccefbcefc9b6</xr:TypeId>
-				<xr:ValueId>b0d91c9d-4ab6-4e6d-988c-8460cd7f829d</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.АС_ПроцедурыФункции" category="Selection">
+				<xr:TypeId>bb534bdb-1f05-43c4-8528-6d586df53fb1</xr:TypeId>
+				<xr:ValueId>263e754e-3a69-4b89-b61d-b94399aacb0f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.АС_Подсистемы" category="List">
-				<xr:TypeId>f6e5fab7-4e79-4b5a-aab3-7c8ec746fd02</xr:TypeId>
-				<xr:ValueId>1c8d64fd-f7d3-4a3c-9b4e-9bab283e97c7</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.АС_ПроцедурыФункции" category="List">
+				<xr:TypeId>03712686-91b3-4f5b-a58d-a4070b259320</xr:TypeId>
+				<xr:ValueId>de3ea498-411a-44c2-931e-3ccfa16842d5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.АС_Подсистемы" category="Manager">
-				<xr:TypeId>f254cf0e-13b7-43e4-884b-dc6ff3c2588f</xr:TypeId>
-				<xr:ValueId>70f0c7c2-7005-4ec6-bd93-9fbebeec5e1d</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.АС_ПроцедурыФункции" category="Manager">
+				<xr:TypeId>21219605-90d7-47b5-bd6c-963fb77998eb</xr:TypeId>
+				<xr:ValueId>4bafdd18-0dba-485d-a8a1-ad6876e5e4d2</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>АС_Подсистемы</Name>
+			<Name>АС_ПроцедурыФункции</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Подсистемы</v8:content>
+					<v8:content>Процедуры и функции</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>150</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,13 +54,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.АС_Подсистемы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.АС_Подсистемы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.АС_ПроцедурыФункции.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.АС_ПроцедурыФункции.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Catalog.АС_ПроцедурыФункции.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -86,6 +86,52 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="5b1e99de-5853-4205-8e40-53d96f3f3514">
+				<Properties>
+					<Name>ТекстМодуля</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст модуля</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -118,6 +118,102 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="0c96bc09-9464-4112-b97e-a5e4ae0662fd">
+				<Properties>
+					<Name>Роли</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Роли</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d409cb50-cb81-4ba1-bb78-36c6c5fa33f7">
+				<Properties>
+					<Name>ПодпискиНаСобытия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подписки на события</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="55d4940a-9c62-43b0-b011-5acde2712ceb">
+				<Properties>
+					<Name>РегламентныеЗадания</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регламентные задания</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e435bf2d-37a7-498c-8284-baed8b459100">
+				<Properties>
+					<Name>ОпределяемыеТипы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Определяемые типы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="21c6ec00-8e75-48b3-b615-861a739badf2">
+				<Properties>
+					<Name>ОбщиеКоманды</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие команды</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="589baa99-1bb2-4757-a4f3-6eb022fcc797">
+				<Properties>
+					<Name>ГруппыКоманд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группы команд</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="641999b4-37e4-4dec-baec-c1c0f8cc340f">
+				<Properties>
+					<Name>ОбщиеФормы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие формы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="84658eb9-347a-4ce4-8092-1b5e0fae8503">
+				<Properties>
+					<Name>ОбщиеМакеты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие макеты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="42b10405-1b62-489a-b23b-882df29aa20b">
 				<Properties>
 					<Name>Справочники</Name>
@@ -156,11 +252,23 @@
 			</EnumValue>
 			<EnumValue uuid="42239d88-8e84-4c7f-8f93-49e3c74663f7">
 				<Properties>
-					<Name>РегистрРасчетов</Name>
+					<Name>РегистрНакопления</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регистр расчетов</v8:content>
+							<v8:content>Регистр накопления</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2c36176c-bcf7-4e9c-b1c7-9f46c01add97">
+				<Properties>
+					<Name>Константы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Константы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

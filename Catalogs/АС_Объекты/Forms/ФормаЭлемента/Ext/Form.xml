@@ -11,6 +11,12 @@
 			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
 		</InputField>
+		<InputField name="Родитель" id="133">
+			<DataPath>Объект.Parent</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РодительКонтекстноеМеню" id="134"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="135"/>
+		</InputField>
 		<InputField name="Наименование" id="4">
 			<DataPath>Объект.Description</DataPath>
 			<EditMode>EnterOnInput</EditMode>
@@ -312,6 +318,72 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ПроцедурыФункцииНаименованиеКонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="ПроцедурыФункцииНаименованиеРасширеннаяПодсказка" id="111"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСтраницаДвижения" id="112">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Движения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница движения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаДвиженияРасширеннаяПодсказка" id="113"/>
+					<ChildItems>
+						<Table name="Регистры" id="114">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Регистры</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РегистрыКонтекстноеМеню" id="115"/>
+							<AutoCommandBar name="РегистрыКоманднаяПанель" id="116"/>
+							<ExtendedTooltip name="РегистрыРасширеннаяПодсказка" id="117"/>
+							<SearchStringAddition name="РегистрыСтрокаПоиска" id="118">
+								<AdditionSource>
+									<Item>Регистры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РегистрыСтрокаПоискаКонтекстноеМеню" id="119"/>
+								<ExtendedTooltip name="РегистрыСтрокаПоискаРасширеннаяПодсказка" id="120"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РегистрыСостояниеПросмотра" id="121">
+								<AdditionSource>
+									<Item>Регистры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РегистрыСостояниеПросмотраКонтекстноеМеню" id="122"/>
+								<ExtendedTooltip name="РегистрыСостояниеПросмотраРасширеннаяПодсказка" id="123"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РегистрыУправлениеПоиском" id="124">
+								<AdditionSource>
+									<Item>Регистры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РегистрыУправлениеПоискомКонтекстноеМеню" id="125"/>
+								<ExtendedTooltip name="РегистрыУправлениеПоискомРасширеннаяПодсказка" id="126"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РегистрыНомерСтроки" id="127">
+									<DataPath>Объект.Регистры.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РегистрыНомерСтрокиКонтекстноеМеню" id="128"/>
+									<ExtendedTooltip name="РегистрыНомерСтрокиРасширеннаяПодсказка" id="129"/>
+								</LabelField>
+								<InputField name="РегистрыАС_Объект" id="130">
+									<DataPath>Объект.Регистры.АС_Объект</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РегистрыАС_ОбъектКонтекстноеМеню" id="131"/>
+									<ExtendedTooltip name="РегистрыАС_ОбъектРасширеннаяПодсказка" id="132"/>
 								</InputField>
 							</ChildItems>
 						</Table>

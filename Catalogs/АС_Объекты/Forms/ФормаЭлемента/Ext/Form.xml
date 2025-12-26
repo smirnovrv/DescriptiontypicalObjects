@@ -163,6 +163,13 @@
 									<ContextMenu name="АС_РеквизитыТипКонтекстноеМеню" id="33"/>
 									<ExtendedTooltip name="АС_РеквизитыТипРасширеннаяПодсказка" id="34"/>
 								</InputField>
+								<CheckBoxField name="АС_РеквизитыАС_Связь" id="136">
+									<DataPath>Объект.АС_Реквизиты.АС_Связь</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="АС_РеквизитыАС_СвязьКонтекстноеМеню" id="137"/>
+									<ExtendedTooltip name="АС_РеквизитыАС_СвязьРасширеннаяПодсказка" id="138"/>
+								</CheckBoxField>
 								<InputField name="АС_РеквизитыОписание" id="43">
 									<DataPath>Объект.АС_Реквизиты.АлгоритмЗаполнение</DataPath>
 									<EditMode>EnterOnInput</EditMode>

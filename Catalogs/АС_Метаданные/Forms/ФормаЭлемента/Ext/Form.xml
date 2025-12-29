@@ -120,6 +120,9 @@
 						<ContextMenu name="АС_ОбъектыУправлениеПоискомКонтекстноеМеню" id="21"/>
 						<ExtendedTooltip name="АС_ОбъектыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">АС_ОбъектыВыбор</Event>
+					</Events>
 					<ChildItems>
 						<LabelField name="АС_ОбъектыНомерСтроки" id="23">
 							<DataPath>Объект.АС_Объекты.LineNumber</DataPath>
@@ -136,6 +139,13 @@
 							<Events>
 								<Event name="OnChange">АС_ОбъектыАС_ПодсистемаПриИзменении</Event>
 							</Events>
+						</InputField>
+						<InputField name="АС_ОбъектыИзменен" id="93">
+							<DataPath>Объект.АС_Объекты.Изменен</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="АС_ОбъектыИзмененКонтекстноеМеню" id="94"/>
+							<ExtendedTooltip name="АС_ОбъектыИзмененРасширеннаяПодсказка" id="95"/>
 						</InputField>
 						<InputField name="АС_ОбъектыАС_ВидОбъекта" id="90">
 							<DataPath>Объект.АС_Объекты.АС_ВидОбъекта</DataPath>

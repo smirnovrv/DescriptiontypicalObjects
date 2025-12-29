@@ -398,15 +398,35 @@
 				</Page>
 			</ChildItems>
 		</Pages>
-		<InputField name="Описание" id="49">
-			<DataPath>Объект.Описание</DataPath>
-			<AutoMaxWidth>false</AutoMaxWidth>
-			<HorizontalStretch>true</HorizontalStretch>
-			<MultiLine>true</MultiLine>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОписаниеКонтекстноеМеню" id="50"/>
-			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="51"/>
-		</InputField>
+		<UsualGroup name="Группа3" id="139">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="140"/>
+			<ChildItems>
+				<InputField name="Описание" id="49">
+					<DataPath>Объект.Описание</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="51"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

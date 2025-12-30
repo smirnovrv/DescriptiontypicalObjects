@@ -559,6 +559,43 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="cd671717-01d9-423e-96a6-7b01bb098e04">
+						<Properties>
+							<Name>ПроверкаЗаполнения</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обяз.</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="b4cd9c8c-6001-499f-82ff-9b7458d014db">
@@ -833,6 +870,60 @@
 						</Properties>
 					</Attribute>
 				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="d61ef22c-bd38-4666-b576-4ac8e38d0410">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.АС_Объекты.Изменения" category="TabularSection">
+						<xr:TypeId>00014d8b-d704-49b1-890b-ad9bafaf303b</xr:TypeId>
+						<xr:ValueId>2763f40d-2855-4845-ac58-e87feed858e6</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.АС_Объекты.Изменения" category="TabularSectionRow">
+						<xr:TypeId>3e437956-e2f4-405b-8977-b0de7971b637</xr:TypeId>
+						<xr:ValueId>08582107-bf13-4769-9ff9-b2fbd4907cb5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Изменения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<Use>ForItem</Use>
+					<LineNumberLength>5</LineNumberLength>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="0f8728dd-e451-4f02-bfb8-1d66e25a1f1e">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.АС_Объекты.Расширения" category="TabularSection">
+						<xr:TypeId>ad2e8919-5631-4ae4-b47d-0eeaaa3aecf7</xr:TypeId>
+						<xr:ValueId>7db293a7-dda3-407a-bbda-1dc88ad3ed8d</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.АС_Объекты.Расширения" category="TabularSectionRow">
+						<xr:TypeId>bec3400c-50cb-452d-a717-a728e77e504c</xr:TypeId>
+						<xr:ValueId>00430a02-44c7-4961-a7df-53ea7cc6264c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Расширения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расширения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<Use>ForItem</Use>
+					<LineNumberLength>5</LineNumberLength>
+				</Properties>
+				<ChildObjects/>
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>

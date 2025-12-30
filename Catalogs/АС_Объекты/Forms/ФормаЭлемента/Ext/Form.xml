@@ -150,6 +150,13 @@
 									<ContextMenu name="АС_РеквизитыРеквизитСинонимКонтекстноеМеню" id="30"/>
 									<ExtendedTooltip name="АС_РеквизитыРеквизитСинонимРасширеннаяПодсказка" id="31"/>
 								</InputField>
+								<CheckBoxField name="АС_РеквизитыПроверкаЗаполнения" id="141">
+									<DataPath>Объект.АС_Реквизиты.ПроверкаЗаполнения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="АС_РеквизитыПроверкаЗаполненияКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="АС_РеквизитыПроверкаЗаполненияРасширеннаяПодсказка" id="143"/>
+								</CheckBoxField>
 								<InputField name="АС_РеквизитыТип" id="32">
 									<DataPath>Объект.АС_Реквизиты.РеквизитТип</DataPath>
 									<Title>
@@ -176,79 +183,6 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="АС_РеквизитыОписаниеКонтекстноеМеню" id="44"/>
 									<ExtendedTooltip name="АС_РеквизитыОписаниеРасширеннаяПодсказка" id="45"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-					</ChildItems>
-				</Page>
-				<Page name="ГруппаСтраницаФормы" id="64">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Формы</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Группа страница формы</v8:content>
-						</v8:item>
-					</ToolTip>
-					<ExtendedTooltip name="ГруппаСтраницаФормыРасширеннаяПодсказка" id="65"/>
-					<ChildItems>
-						<Table name="Формы" id="66">
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.Формы</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="ФормыКонтекстноеМеню" id="67"/>
-							<AutoCommandBar name="ФормыКоманднаяПанель" id="68"/>
-							<ExtendedTooltip name="ФормыРасширеннаяПодсказка" id="69"/>
-							<SearchStringAddition name="ФормыСтрокаПоиска" id="70">
-								<AdditionSource>
-									<Item>Формы</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ФормыСтрокаПоискаКонтекстноеМеню" id="71"/>
-								<ExtendedTooltip name="ФормыСтрокаПоискаРасширеннаяПодсказка" id="72"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="ФормыСостояниеПросмотра" id="73">
-								<AdditionSource>
-									<Item>Формы</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="ФормыСостояниеПросмотраКонтекстноеМеню" id="74"/>
-								<ExtendedTooltip name="ФормыСостояниеПросмотраРасширеннаяПодсказка" id="75"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="ФормыУправлениеПоиском" id="76">
-								<AdditionSource>
-									<Item>Формы</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="ФормыУправлениеПоискомКонтекстноеМеню" id="77"/>
-								<ExtendedTooltip name="ФормыУправлениеПоискомРасширеннаяПодсказка" id="78"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<LabelField name="ФормыНомерСтроки" id="79">
-									<DataPath>Объект.Формы.LineNumber</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ФормыНомерСтрокиКонтекстноеМеню" id="80"/>
-									<ExtendedTooltip name="ФормыНомерСтрокиРасширеннаяПодсказка" id="81"/>
-								</LabelField>
-								<InputField name="ФормыАС_Форма" id="82">
-									<DataPath>Объект.Формы.АС_Форма</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ФормыАС_ФормаКонтекстноеМеню" id="83"/>
-									<ExtendedTooltip name="ФормыАС_ФормаРасширеннаяПодсказка" id="84"/>
-								</InputField>
-								<InputField name="ФормыРеквизитИмя" id="85">
-									<DataPath>Объект.Формы.РеквизитИмя</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ФормыРеквизитИмяКонтекстноеМеню" id="86"/>
-									<ExtendedTooltip name="ФормыРеквизитИмяРасширеннаяПодсказка" id="87"/>
 								</InputField>
 							</ChildItems>
 						</Table>
@@ -325,6 +259,79 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="ПроцедурыФункцииНаименованиеКонтекстноеМеню" id="110"/>
 									<ExtendedTooltip name="ПроцедурыФункцииНаименованиеРасширеннаяПодсказка" id="111"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСтраницаФормы" id="64">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница формы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаФормыРасширеннаяПодсказка" id="65"/>
+					<ChildItems>
+						<Table name="Формы" id="66">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Формы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ФормыКонтекстноеМеню" id="67"/>
+							<AutoCommandBar name="ФормыКоманднаяПанель" id="68"/>
+							<ExtendedTooltip name="ФормыРасширеннаяПодсказка" id="69"/>
+							<SearchStringAddition name="ФормыСтрокаПоиска" id="70">
+								<AdditionSource>
+									<Item>Формы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ФормыСтрокаПоискаКонтекстноеМеню" id="71"/>
+								<ExtendedTooltip name="ФормыСтрокаПоискаРасширеннаяПодсказка" id="72"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ФормыСостояниеПросмотра" id="73">
+								<AdditionSource>
+									<Item>Формы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ФормыСостояниеПросмотраКонтекстноеМеню" id="74"/>
+								<ExtendedTooltip name="ФормыСостояниеПросмотраРасширеннаяПодсказка" id="75"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ФормыУправлениеПоиском" id="76">
+								<AdditionSource>
+									<Item>Формы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ФормыУправлениеПоискомКонтекстноеМеню" id="77"/>
+								<ExtendedTooltip name="ФормыУправлениеПоискомРасширеннаяПодсказка" id="78"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ФормыНомерСтроки" id="79">
+									<DataPath>Объект.Формы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ФормыНомерСтрокиКонтекстноеМеню" id="80"/>
+									<ExtendedTooltip name="ФормыНомерСтрокиРасширеннаяПодсказка" id="81"/>
+								</LabelField>
+								<InputField name="ФормыАС_Форма" id="82">
+									<DataPath>Объект.Формы.АС_Форма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ФормыАС_ФормаКонтекстноеМеню" id="83"/>
+									<ExtendedTooltip name="ФормыАС_ФормаРасширеннаяПодсказка" id="84"/>
+								</InputField>
+								<InputField name="ФормыРеквизитИмя" id="85">
+									<DataPath>Объект.Формы.РеквизитИмя</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ФормыРеквизитИмяКонтекстноеМеню" id="86"/>
+									<ExtendedTooltip name="ФормыРеквизитИмяРасширеннаяПодсказка" id="87"/>
 								</InputField>
 							</ChildItems>
 						</Table>

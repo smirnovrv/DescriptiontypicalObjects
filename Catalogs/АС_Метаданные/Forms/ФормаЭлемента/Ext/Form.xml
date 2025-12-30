@@ -28,45 +28,60 @@
 						</Button>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="Группа3" id="83">
+				<UsualGroup name="Группа6" id="98">
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="84"/>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="99"/>
 					<ChildItems>
-						<Button name="КомандаЗаполнитьИспользуемыми" id="81">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.КомандаЗаполнитьИспользуемыми</CommandName>
-							<ExtendedTooltip name="КомандаЗаполнитьИспользуемымиРасширеннаяПодсказка" id="82"/>
-						</Button>
-						<Button name="КомандаЗаполнить" id="35">
-							<Type>UsualButton</Type>
-							<CommandName>Form.Command.КомандаЗаполнить</CommandName>
-							<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
-						</Button>
+						<UsualGroup name="Группа5" id="96">
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="97"/>
+							<ChildItems>
+								<InputField name="Код" id="1">
+									<DataPath>Объект.Code</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+								</InputField>
+								<InputField name="Наименование" id="4">
+									<DataPath>Объект.Description</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+								</InputField>
+								<InputField name="ВидОбъекта" id="7">
+									<DataPath>Объект.ВидОбъекта</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ВидОбъектаКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="ВидОбъектаРасширеннаяПодсказка" id="9"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа3" id="83">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="84"/>
+							<ChildItems>
+								<Button name="КомандаЗаполнитьИспользуемыми" id="81">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.КомандаЗаполнитьИспользуемыми</CommandName>
+									<ExtendedTooltip name="КомандаЗаполнитьИспользуемымиРасширеннаяПодсказка" id="82"/>
+								</Button>
+								<Button name="КомандаЗаполнить" id="35">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+									<ExtendedTooltip name="КомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="Код" id="1">
-			<DataPath>Объект.Code</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
-		</InputField>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
-		</InputField>
-		<InputField name="ВидОбъекта" id="7">
-			<DataPath>Объект.ВидОбъекта</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ВидОбъектаКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="ВидОбъектаРасширеннаяПодсказка" id="9"/>
-		</InputField>
 		<UsualGroup name="Группа2" id="52">
 			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>

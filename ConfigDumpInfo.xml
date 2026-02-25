@@ -76,7 +76,7 @@
 		<Metadata name="Catalog.АС_Формы" id="0a24b02a-f03d-4189-ac47-fca486ac56e8" configVersion="ddc80c29d4c58072a5457465a83073048e923518"/>
 		<Metadata name="CommonModule.АС_ОбщийМодульСервер" id="c60ee314-347d-4893-a9be-ad1bc4e9cc96" configVersion="16668aae913a573225c801ee2e8659dddff850b3"/>
 		<Metadata name="CommonModule.АС_ОбщийМодульСервер.Module" id="c60ee314-347d-4893-a9be-ad1bc4e9cc96.0" configVersion="4ad2055ba943177a855800bf30c9cdbc83368e47"/>
-		<Metadata name="Configuration.ОписаниеТиповойКонфигурации" id="0fba4e31-03bb-4822-abc4-e70e2c7c6645" configVersion="8f8d3ff088ad9a8298687a30d92693331bbf26dc"/>
+		<Metadata name="Configuration.ОписаниеТиповойКонфигурации" id="0fba4e31-03bb-4822-abc4-e70e2c7c6645" configVersion="c49009fa66ad2a5c6077328049cd4b80c6a9f088"/>
 		<Metadata name="DataProcessor.АС_Старт" id="35b78ee8-5689-414f-b4c3-aa9f2848b1d2" configVersion="63ed622db3fd7873da3b129695b6567c995d6b11"/>
 		<Metadata name="Enum.АС_ВидОбъектов" id="1e1e527f-4d23-4684-96fa-3edfb063d2b9" configVersion="8bf94f174d6896d958062ab942cb13a65dcbf0f9">
 			<Metadata name="Enum.АС_ВидОбъектов.EnumValue.Роли" id="0c96bc09-9464-4112-b97e-a5e4ae0662fd"/>

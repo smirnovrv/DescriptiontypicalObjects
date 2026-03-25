@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="47">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="49">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="50"/>
+			<ChildItems>
+				<InputField name="НазваниеВерсияКонфигурации" id="7">
+					<DataPath>Объект.НазваниеВерсияКонфигурации</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НазваниеВерсияКонфигурацииКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="НазваниеВерсияКонфигурацииРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<Button name="ОбновитьВерсиюКонфигурации" id="51">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Command.ОбновитьВерсиюКонфигурации</CommandName>
+					<ExtendedTooltip name="ОбновитьВерсиюКонфигурацииРасширеннаяПодсказка" id="52"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ок_Метаданные" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ок_Метаданные</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ок_МетаданныеКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ок_МетаданныеКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ок_МетаданныеРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ок_МетаданныеСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ок_Метаданные</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ок_МетаданныеСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ок_МетаданныеСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ок_МетаданныеСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ок_Метаданные</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ок_МетаданныеСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ок_МетаданныеСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ок_МетаданныеУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ок_Метаданные</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ок_МетаданныеУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ок_МетаданныеУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ок_МетаданныеНомерСтроки" id="23">
+					<DataPath>Объект.ок_Метаданные.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ок_МетаданныеНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ок_МетаданныеНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ок_МетаданныеИмя" id="26">
+					<DataPath>Объект.ок_Метаданные.Имя</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеИмяКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ок_МетаданныеИмяРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ок_МетаданныеСиноним" id="29">
+					<DataPath>Объект.ок_Метаданные.Синоним</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеСинонимКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ок_МетаданныеСинонимРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ок_Метаданныеок_Объект" id="32">
+					<DataPath>Объект.ок_Метаданные.ок_Объект</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_Метаданныеок_ОбъектКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ок_Метаданныеок_ОбъектРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ок_МетаданныеПодсистема" id="35">
+					<DataPath>Объект.ок_Метаданные.Подсистема</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеПодсистемаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ок_МетаданныеПодсистемаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ок_МетаданныеОписание" id="38">
+					<DataPath>Объект.ок_Метаданные.Описание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеОписаниеКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ок_МетаданныеОписаниеРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ок_МетаданныеКоличество" id="41">
+					<DataPath>Объект.ок_Метаданные.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеКоличествоКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ок_МетаданныеКоличествоРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ок_МетаданныеВидОбъекта" id="44">
+					<DataPath>Объект.ок_Метаданные.ВидОбъекта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеВидОбъектаКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ок_МетаданныеВидОбъектаРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ок_ИнформационныеБазы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьВерсиюКонфигурации" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить версию конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить версию конфигурации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьВерсиюКонфигурации</Action>
+		</Command>
+	</Commands>
+</Form>

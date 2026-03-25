@@ -19,14 +19,14 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_ГруппыСправочников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Удалить_АС_ГруппыСправочников</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_Метаданные</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_Объекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_Подсистемы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_ПроцедурыФункции</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_Процессы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Удалить_АС_ПроцедурыФункции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Удалить_АС_Процессы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_ТабличныеЧасти</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АС_Формы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Удалить_АС_Формы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

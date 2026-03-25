@@ -672,7 +672,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.АС_Формы</v8:Type>
+								<v8:Type>cfg:CatalogRef.Удалить_АС_Формы</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -815,7 +815,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.АС_ПроцедурыФункции</v8:Type>
+								<v8:Type>cfg:CatalogRef.Удалить_АС_ПроцедурыФункции</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

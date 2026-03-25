@@ -62,7 +62,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ок_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов 661300789600</Vendor>
-			<Version>15.01</Version>
+			<Version>15.02</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -77,18 +77,18 @@
 			<Subsystem>ок_Подсистема26</Subsystem>
 			<Role>ок_ОсновнаяРоль</Role>
 			<CommonModule>АС_ОбщийМодульСервер</CommonModule>
-			<Catalog>АС_ГруппыСправочников</Catalog>
 			<Catalog>АС_Метаданные</Catalog>
 			<Catalog>АС_Объекты</Catalog>
 			<Catalog>АС_Подсистемы</Catalog>
-			<Catalog>АС_ПроцедурыФункции</Catalog>
-			<Catalog>АС_Процессы</Catalog>
 			<Catalog>АС_ТабличныеЧасти</Catalog>
-			<Catalog>АС_Формы</Catalog>
 			<Catalog>ок_ИнформационныеБазы</Catalog>
 			<Catalog>ок_Объекты</Catalog>
 			<Catalog>ок_Подсистемы</Catalog>
 			<Catalog>ок_ТабличныеЧасти</Catalog>
+			<Catalog>Удалить_АС_ГруппыСправочников</Catalog>
+			<Catalog>Удалить_АС_ПроцедурыФункции</Catalog>
+			<Catalog>Удалить_АС_Процессы</Catalog>
+			<Catalog>Удалить_АС_Формы</Catalog>
 			<Enum>АС_Модули</Enum>
 			<Enum>ок_ВидОбъектов</Enum>
 			<Enum>ок_Изменения</Enum>

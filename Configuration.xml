@@ -41,17 +41,17 @@
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>ОписаниеТиповойКонфигурации</Name>
+			<Name>ОписаниеКонфигурации</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Описание типовой конфигурации</v8:content>
+					<v8:content>Описание конфигурации</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>Расширение для конфигурации</Comment>
+			<Comment/>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>АС_</NamePrefix>
+			<NamePrefix>ок_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_24</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
@@ -59,10 +59,10 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ок_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП Смирнов 661300789600</Vendor>
-			<Version>15.06</Version>
+			<Version>15.01</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -73,20 +73,27 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>рс_МетаДанные</Subsystem>
-			<Role>АС_ОсновнаяРоль</Role>
+			<Subsystem>АС_МетаДанные</Subsystem>
+			<Subsystem>ок_Подсистема26</Subsystem>
+			<Role>ок_ОсновнаяРоль</Role>
 			<CommonModule>АС_ОбщийМодульСервер</CommonModule>
-			<Catalog>рс_ИнформационныеБазы</Catalog>
-			<Catalog>рс_Объекты</Catalog>
-			<Catalog>рс_Подсистемы</Catalog>
-			<Catalog>рс_ПроцедурыФункции</Catalog>
-			<Catalog>рс_Процессы</Catalog>
-			<Catalog>рс_ТабличныеЧасти</Catalog>
-			<Catalog>рс_Формы</Catalog>
-			<Catalog>рс_ГруппыСправочников</Catalog>
-			<Enum>рс_ВидОбъектов</Enum>
-			<Enum>рс_Изменения</Enum>
+			<Catalog>АС_ГруппыСправочников</Catalog>
+			<Catalog>АС_Метаданные</Catalog>
+			<Catalog>АС_Объекты</Catalog>
+			<Catalog>АС_Подсистемы</Catalog>
+			<Catalog>АС_ПроцедурыФункции</Catalog>
+			<Catalog>АС_Процессы</Catalog>
+			<Catalog>АС_ТабличныеЧасти</Catalog>
+			<Catalog>АС_Формы</Catalog>
+			<Catalog>ок_ИнформационныеБазы</Catalog>
+			<Catalog>ок_Объекты</Catalog>
+			<Catalog>ок_Подсистемы</Catalog>
+			<Catalog>ок_ТабличныеЧасти</Catalog>
 			<Enum>АС_Модули</Enum>
+			<Enum>ок_ВидОбъектов</Enum>
+			<Enum>ок_Изменения</Enum>
+			<Enum>Удалить_АС_ВидОбъектов</Enum>
+			<Enum>Удалить_АС_Изменения</Enum>
 			<DataProcessor>АС_Старт</DataProcessor>
 		</ChildObjects>
 	</Configuration>

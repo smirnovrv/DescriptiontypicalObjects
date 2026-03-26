@@ -22,6 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ок_ИнформационныеБазы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ок_Объекты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ок_Подсистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ок_ТабличныеЧасти</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

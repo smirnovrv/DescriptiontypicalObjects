@@ -53,7 +53,15 @@
 			<DataPath>Объект.ок_Метаданные</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ок_МетаданныеКонтекстноеМеню" id="11"/>
-			<AutoCommandBar name="ок_МетаданныеКоманднаяПанель" id="12"/>
+			<AutoCommandBar name="ок_МетаданныеКоманднаяПанель" id="12">
+				<ChildItems>
+					<Button name="ок_МетаданныеКомандаЗаполнить" id="53">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+						<ExtendedTooltip name="ок_МетаданныеКомандаЗаполнитьРасширеннаяПодсказка" id="54"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ок_МетаданныеРасширеннаяПодсказка" id="13"/>
 			<SearchStringAddition name="ок_МетаданныеСтрокаПоиска" id="14">
 				<AdditionSource>
@@ -86,6 +94,13 @@
 					<ContextMenu name="ок_МетаданныеНомерСтрокиКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="ок_МетаданныеНомерСтрокиРасширеннаяПодсказка" id="25"/>
 				</LabelField>
+				<InputField name="ок_МетаданныеВидОбъекта" id="44">
+					<DataPath>Объект.ок_Метаданные.ВидОбъекта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ок_МетаданныеВидОбъектаКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ок_МетаданныеВидОбъектаРасширеннаяПодсказка" id="46"/>
+				</InputField>
 				<InputField name="ок_МетаданныеИмя" id="26">
 					<DataPath>Объект.ок_Метаданные.Имя</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -128,13 +143,6 @@
 					<ContextMenu name="ок_МетаданныеКоличествоКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ок_МетаданныеКоличествоРасширеннаяПодсказка" id="43"/>
 				</InputField>
-				<InputField name="ок_МетаданныеВидОбъекта" id="44">
-					<DataPath>Объект.ок_Метаданные.ВидОбъекта</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ок_МетаданныеВидОбъектаКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ок_МетаданныеВидОбъектаРасширеннаяПодсказка" id="46"/>
-				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -166,6 +174,21 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ОбновитьВерсиюКонфигурации</Action>
+		</Command>
+		<Command name="КомандаЗаполнить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаЗаполнить</Action>
 		</Command>
 	</Commands>
 </Form>

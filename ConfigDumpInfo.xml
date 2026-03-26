@@ -90,7 +90,7 @@
 			<Metadata name="Catalog.ок_ИнформационныеБазы.TabularSection.ок_Метаданные.Attribute.Синоним" id="fa6ed548-af90-4fd6-935a-6939b01414ad"/>
 		</Metadata>
 		<Metadata name="Catalog.ок_ИнформационныеБазы.Form.ФормаЭлемента" id="daefe5ea-7976-4ea2-bee9-8696fb369005" configVersion="4205f6b453f542a6b45ecffd03bdf8a68afc4c33"/>
-		<Metadata name="Catalog.ок_ИнформационныеБазы.Form.ФормаЭлемента.Form" id="daefe5ea-7976-4ea2-bee9-8696fb369005.0" configVersion="29c89a864840991fa2b4968da596d2f7792d144f"/>
+		<Metadata name="Catalog.ок_ИнформационныеБазы.Form.ФормаЭлемента.Form" id="daefe5ea-7976-4ea2-bee9-8696fb369005.0" configVersion="5f6164856f687504c30d4ab9630ca085754c8eb7"/>
 		<Metadata name="Catalog.ок_Объекты" id="c13cac1a-b7b3-4791-86d6-4e6cf5824dab" configVersion="3e18dbc71d45954eecfdc4cab3d4259c902c1772">
 			<Metadata name="Catalog.ок_Объекты.Attribute.Подсистема" id="2aa31e5b-c061-42a9-a29a-960ab5aaeb84"/>
 			<Metadata name="Catalog.ок_Объекты.TabularSection.Реквизиты.Attribute.РеквизитИмя" id="31a1eaf2-b31f-4cab-a4d9-e0c219fdc0bf"/>
@@ -111,7 +111,7 @@
 		</Metadata>
 		<Metadata name="CommonModule.АС_ОбщийМодульСервер" id="c60ee314-347d-4893-a9be-ad1bc4e9cc96" configVersion="16668aae913a573225c801ee2e8659dddff850b3"/>
 		<Metadata name="CommonModule.АС_ОбщийМодульСервер.Module" id="c60ee314-347d-4893-a9be-ad1bc4e9cc96.0" configVersion="4ad2055ba943177a855800bf30c9cdbc83368e47"/>
-		<Metadata name="Configuration.ОписаниеКонфигурации" id="0fba4e31-03bb-4822-abc4-e70e2c7c6645" configVersion="ecd5ba95ecf9a0de9798f8001fe0c2945562ac41"/>
+		<Metadata name="Configuration.ОписаниеКонфигурации" id="0fba4e31-03bb-4822-abc4-e70e2c7c6645" configVersion="17eb14a66cfecd6a110ffc53eb1678fb4d24b1d9"/>
 		<Metadata name="DataProcessor.АС_Старт" id="35b78ee8-5689-414f-b4c3-aa9f2848b1d2" configVersion="63ed622db3fd7873da3b129695b6567c995d6b11"/>
 		<Metadata name="Enum.АС_Модули" id="1ad37530-a9c5-42c0-9110-881fc9a515a1" configVersion="4347cdafb6e4e6b1f27d6a808a97e2fe2321999c">
 			<Metadata name="Enum.АС_Модули.EnumValue.ОбщийМодуль" id="0e93c886-a69c-476e-bb33-2478d6a4cbeb"/>
@@ -170,6 +170,7 @@
 		<Metadata name="Language.Русский" id="f24bef2a-4838-46fe-89c3-249b32cc2a8f" configVersion="a892511cba32016e95360370475f40936cfb0213"/>
 		<Metadata name="Role.ок_ОсновнаяРоль" id="5a212998-9cd7-4846-bfb6-b46450fbae68" configVersion="6745b0f3e98508b36a2c2ccd780df14e3bb42961"/>
 		<Metadata name="Subsystem.АС_МетаДанные" id="fa8621b4-66af-4f0a-b5f4-c8c772ab4561" configVersion="a8bd1d1d0ab6a7f097cc42ff681b02b2e6982938"/>
-		<Metadata name="Subsystem.ок_Подсистема26" id="c286eb34-4e68-4b85-8922-9d57e857e251" configVersion="a74e4cc0460cbaadd27e6ebc462c31f0bbc20913"/>
+		<Metadata name="Subsystem.ок_Подсистема26" id="c286eb34-4e68-4b85-8922-9d57e857e251" configVersion="7304b9206112be2d65cea546a66cdeb49c862bd4"/>
+		<Metadata name="Subsystem.ок_Подсистема26.CommandInterface" id="c286eb34-4e68-4b85-8922-9d57e857e251.1" configVersion="55793fe6d7ded14fd149989b62d50ab1d9979866"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
